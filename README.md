@@ -1,8 +1,8 @@
 # to-morse
 
-`to-morse.bas` is a LibreOffice macro that translates text in a spreadsheet cell to its representation in Morse Code.
+`to-morse.bas` is a [LibreOffice](https://www.libreoffice.org/) macro that translates text in a spreadsheet cell to its representation in Morse Code.
 
-## Quick Start
+## Quick start
 
 To add `to-morse.bas` to the `pangram.ods` LibreOffice spreadsheet included in this repository I followed these steps:
 
@@ -28,7 +28,7 @@ You may find that you need to `Enable Macros` depending on your security setting
 
 ## Why `to-morse`?
 
-I normally program in Python, JavaScript, or Ruby but I was working on dialogue for a moving image project and a spreadsheet seemed like the most natural tool at my disposal for generating drafts. Rather than uploading contents cell by cell into an online Morse Code converter this function seemed like the best way to go.
+I'd normally program something like this in Python, JavaScript, or Ruby but I was working on dialogue for a moving image project and a spreadsheet seemed like the most natural tool at my disposal for generating drafts. Rather than uploading contents cell-by-cell into an online Morse Code converter this function seemed like the best way to go.
 
 I haven't coded in any variant of BASIC for decades.
 
@@ -37,11 +37,11 @@ I did have a Novice class amateur radio license in my youth, and I've retained s
 
 ## Compatibility with other spreadsheet programs
 
-Unknown. LibreOffice derives from OpenOffice so I'd expect it to work there. I don't have a copy of Excel. Google Sheets does not import the macro along with the spreadsheet. Numbers does not open `.ods` files directly.
+Unknown. LibreOffice derives from OpenOffice so I'd expect it to work there. I don't have access to a copy of Excel. Google Sheets seems not to import the macro along with `pangram.ods`. Numbers does not open `.ods` files directly at all.
 
-Please feel free to create a pull request if you're willing to document using this with an alternate spreadsheet. Thanks!
+I welcome pull requests that insert succinct descriptions of using this macro with spreadsheet software other than LibreOffice. Thanks in advance!
 
 
 ## To do
 
-It'd be handy if the macro could programmatically recognize a _Prosign_ by its overline and compress the multiple codes into one but [I'm not clear if LibreOffice has that capability](https://ask.libreoffice.org/en/question/302360/how-can-i-identify-decorated-text-eg-overlining-using-a-macro/).
+It'd be handy if the macro could programmatically recognize certain [_prosigns_](https://en.wikipedia.org/wiki/Prosigns_for_Morse_code) by their overline text decoration and compress multiple codes into a single one but [I'm not clear if LibreOffice has that capability](https://ask.libreoffice.org/en/question/302360/how-can-i-identify-decorated-text-eg-overlining-using-a-macro/).
