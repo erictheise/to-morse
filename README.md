@@ -42,6 +42,10 @@ Unknown. LibreOffice derives from OpenOffice so I'd expect it to work there. I d
 I welcome pull requests that insert succinct descriptions of using this macro with spreadsheet software other than LibreOffice. Thanks in advance!
 
 
-## To do
+## Gotchas and to-dos
 
-It'd be handy if the macro could programmatically recognize certain [_prosigns_](https://en.wikipedia.org/wiki/Prosigns_for_Morse_code) by their overline text decoration and compress multiple codes into a single one but [I'm not clear if LibreOffice has that capability](https://ask.libreoffice.org/en/question/302360/how-can-i-identify-decorated-text-eg-overlining-using-a-macro/).
+Due to time limitations, not all punctuation marks are translated. I welcome pull requests to add ones I've missed. __Please note__ that non-breaking spaces are used within the Morse Code representations and to bracket spacing; I strongly encourage you to use an IDE that explicitly identifies whitespace characters. (I used WebStorm, one of JetBrains' offerings but it's a common option within IDEs.)
+
+It'd be handy if the macro could programmatically recognize certain [_prosigns_](https://en.wikipedia.org/wiki/Prosigns_for_Morse_code) that use an overline text decoration, and subsequently compress multiple codes into a single one. [I'm not clear if LibreOffice has that capability](https://ask.libreoffice.org/en/question/302360/how-can-i-identify-decorated-text-eg-overlining-using-a-macro/).
+
+It'd be nice to be smarter about spacing when cell content wraps, i.e., it'd be great if the Morse Code cell looked left-justified.
