@@ -44,7 +44,7 @@ I welcome pull requests that insert succinct descriptions of using this macro wi
 
 ## Gotchas and to-dos
 
-Due to time limitations, not all punctuation marks are translated. I welcome pull requests to add ones I've missed. __Please note__ that non-breaking spaces are used within the Morse Code representations and to bracket spacing; I strongly encourage you to use an IDE that explicitly identifies whitespace characters. (I used WebStorm, one of JetBrains' offerings but it's a common option within IDEs.)
+Due to time limitations, not all punctuation marks are translated. I welcome pull requests to add ones I've missed. __Please note__ that non-breaking spaces are used within the Morse Code representations and to bracket spacing; I strongly encourage you to use an IDE that explicitly identifies whitespace characters. (I used WebStorm, one of JetBrains' offerings, but it's a common option within IDEs.)
 
 It'd be handy if the macro could programmatically recognize certain [_prosigns_](https://en.wikipedia.org/wiki/Prosigns_for_Morse_code) that use an overline text decoration, and subsequently compress multiple codes into a single one. [I'm not clear if LibreOffice has that capability](https://ask.libreoffice.org/en/question/302360/how-can-i-identify-decorated-text-eg-overlining-using-a-macro/).
 
